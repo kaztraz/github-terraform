@@ -4,9 +4,9 @@ variable "az_regions" {
   default     = ["norwayeast", "westeurope", "uksouth", "northeurope"]
 }
 
-variable "rg_jdk_m7" {
+variable "rg_name" {
   type        = string
-  description = "Resource group name for m07"
+  description = "Resource group name"
 }
 
 variable "common_tags" {
